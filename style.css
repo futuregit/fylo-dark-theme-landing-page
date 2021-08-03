@@ -65,7 +65,7 @@ h1, h2, h3, li {
     background: var(--primary-darkblue-testimonials);
 }
 
-footer {
+.about {
     background: var(--primary-darkblue-footer);
 }
 
@@ -100,15 +100,15 @@ header {
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
-    /* margin-right: 1.5em; */
+    margin-right: 1.5em;
 }
 
 .logo-header {
-    /* margin-left: 1.5em; */
+    margin-left: 1.5em;
 }
 
 .navbar__links li {
-    /* margin-left: 2em; */
+    margin-left: 2em;
 }
 
 .navbar__links li a {
