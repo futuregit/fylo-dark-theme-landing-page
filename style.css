@@ -88,7 +88,8 @@ h1, h2, h3, li {
     text-align: center;
 }
 
-.hero img {
+.hero img,
+.fyi img {
     width: 100%;
 }
 
