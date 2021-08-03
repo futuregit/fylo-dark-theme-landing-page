@@ -8,9 +8,23 @@
     --accent-blue: hsl(198, 60%, 50%);
     --accent-red: hsl(0, 100%, 63%);
 
-    --netural-white: hsl(0, 0%, 100%);
+    --neutral-white: hsl(0, 0%, 100%);
 }
 
+/* Colors */
+
+.hero,
+.email-sign-up {
+    background: var(--primary-darkblue-intro);
+}
+
+.testomonials {
+    background: var(--primary-darkblue-testimonials);
+}
+
+footer {
+    background: var(--primary-darkblue-footer);
+}
 /* ## Colors
 
 ### Primary
@@ -38,6 +52,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
+    background: var(--primary-darkblue-main)
 }
 
 .hero {
