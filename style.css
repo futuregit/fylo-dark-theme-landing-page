@@ -100,15 +100,15 @@ header {
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
-    margin-right: 1.5em;
+    /* margin-right: 1.5em; */
 }
 
 .logo-header {
-    margin-left: 1.5em;
+    /* margin-left: 1.5em; */
 }
 
 .navbar__links li {
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 .navbar__links li a {
@@ -116,7 +116,14 @@ header {
     text-decoration: none;
 }
 
-
+.hero {
+    background: lightblue;
+    height: auto;
+    background-image: url('img/bg-curvy-mobile.svg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover */
+}
 
 
 
