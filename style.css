@@ -1,0 +1,21 @@
+:root {
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+}
+
+
+
+
+/* Start @media min-width: 1000px */
+
+@media (min-width: 1000px) {
+
+
+}
