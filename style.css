@@ -70,7 +70,7 @@ h1, h2, h3, li {
     background: var(--primary-darkblue-intro);
 }
 
-.testomonials {
+.testimonials__card {
     background: var(--primary-darkblue-testimonials);
 }
 
@@ -165,6 +165,14 @@ header {
 
 .fyi__info-right a {
     color:var(--accent-cyan);
+}
+
+.testimonials {
+    /* text-align: center; */
+}
+
+.testimonials__card {
+    margin: 0 2em 2em 2em;
 }
 
 
