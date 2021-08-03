@@ -148,10 +148,11 @@ header {
 
 .features {
     padding-top: 11em;
+    padding-bottom: 3em;
     text-align: center;
 }
 .features__square {
-    padding-bottom: 6em;
+    padding-bottom: 7.5em;
 }
 
 
