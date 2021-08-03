@@ -1,14 +1,61 @@
 :root {
+    --primary-darkblue-intro: hsl(217, 28%, 15%);
+    --primary-darkblue-main: hsl(218, 28%, 13%);
+    --primary-darkblue-footer: hsl(216, 53%, 9%);
+    --primary-darkblue-testimonials: hsl(219, 30%, 18%);
 
+    --accent-cyan: hsl(176, 68%, 64%);
+    --accent-blue: hsl(198, 60%, 50%);
+    --accent-red: hsl(0, 100%, 63%);
+
+    --netural-white: hsl(0, 0%, 100%);
 }
+
+/* ## Colors
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) */
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    background: lightblue;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
 }
+
+.hero {
+    /* background: lightblue; */
+    height: auto;
+    background-image: url('img/bg-curvy-mobile.svg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover */
+}
+
+/* Typography */
+
+h1, h2, h3, li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
 
 
 
