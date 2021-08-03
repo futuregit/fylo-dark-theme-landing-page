@@ -93,12 +93,11 @@ body, html { overflow-x:hidden; }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .navbar__links {
     display: flex;
-    justify-content: space-between;
     text-decoration: none;
     list-style: none;
     padding-right: 1.5em;
@@ -106,11 +105,18 @@ header {
 
 .logo-header {
     padding-left: 0;
+    margin: 0;
+    padding-right: 5em;
     transform: scale(0.5); /* For scalling svg logo */
 }
 
 .navbar__links li {
     padding-left: 1em;
+   
+}
+
+.navbar__links:nth-child(1) {
+    padding-left: 0;
 }
 
 .navbar__links li a {
