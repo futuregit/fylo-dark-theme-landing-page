@@ -175,6 +175,42 @@ header {
     margin: 0 2em 2em 2em;
 }
 
+.testimonials__img {
+    border-radius: 50% 50%;
+    width: 10%;
+}
+
+.testimonials__card {
+    padding: 3em 2em 0 2em;
+}
+
+.testimonials__author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.testimonials__text {
+    padding-bottom: 1em;
+}
+
+.testimonials__name-title p {
+    margin: 0;
+    padding: 0 0 0 .5em;
+}
+
+.testimonials__container {
+    padding-top: 2.5em;
+}
+
+.testimonials {
+    background-image: url('img/bg-quotes.png');
+    background-position: top left 15%;
+    background-repeat: no-repeat;
+    
+}
+
 
 
 
