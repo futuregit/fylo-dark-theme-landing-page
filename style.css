@@ -96,7 +96,7 @@ h1, h2, h3, li {
 }
 
 .hero img,
-.fyi img {
+.fyi__img {
     width: 100%;
 }
 
@@ -153,6 +153,18 @@ header {
 }
 .features__square {
     padding-bottom: 7.5em;
+}
+
+.fyi {
+   padding-bottom: 15em;
+}
+
+.fyi__info-right {
+    padding-top: 3em;
+}
+
+.fyi__info-right a {
+    color:var(--accent-cyan);
 }
 
 
