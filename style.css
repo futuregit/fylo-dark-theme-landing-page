@@ -54,6 +54,10 @@ h1, h2, h3, li {
     font-weight: 700;
 }
 
+.testimonials__name {
+    font-weight: 700;
+}
+
 /* Colors */
 
 .hero {
@@ -208,7 +212,12 @@ header {
     background-image: url('img/bg-quotes.png');
     background-position: top left 15%;
     background-repeat: no-repeat;
-    
+}
+
+.email-sign-up {
+    text-align: center;
+    width: 88%;
+    margin: 12em auto 0 auto;
 }
 
 
