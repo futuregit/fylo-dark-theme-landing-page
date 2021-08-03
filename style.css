@@ -100,15 +100,15 @@ header {
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
-    margin-right: 1.5em;
+    padding-right: 1.5em;
 }
 
 .logo-header {
-    margin-left: 1.5em;
+    padding-left: 1.5em;
 }
 
 .navbar__links li {
-    margin-left: 2em;
+    padding-left: 2em;
 }
 
 .navbar__links li a {
