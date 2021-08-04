@@ -145,9 +145,17 @@ header {
 }
 
 .hero__call-to-action {
+    text-decoration: none;
     background: var(--accent-blue);
     padding: .9em 5em;
     border-radius: 100px;
+    cursor: pointer;
+    color: var(--neutral-white);
+}
+
+.hero__call-to-action:hover,
+.hero__call-to-action:focus {
+    opacity: .75;
 }
 
 .features {
@@ -247,10 +255,81 @@ header {
     font-weight: 700;
 }
 
+.email-sign-up__btn:hover,
+.email-sign-up__btn:focus {
+    opacity: .75;
+}
+
 input {
     text-align: center;
 }
 
+.about {
+    padding-top: 17em;
+}
+
+.logo {
+    margin-left: 1.5em;
+}
+
+.about-left,
+.col {
+    margin-left: 1.5em;
+}
+
+.col {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.col li a {
+    text-decoration: none;
+    color: var(--neutral-white);
+}
+
+.col li a:hover,
+.col li a:focus {
+    opacity: .75;
+}
+
+.col li {
+    padding-bottom: 2em;
+}
+
+.about-left .logo {
+    padding-bottom: 1em;
+}
+
+.about span {
+    padding-left: .5em;
+    padding-right: 1.5em;
+
+}
+
+.pad-top {
+    padding-top: 4em;   
+}
+
+.pad-bottom {
+    padding-bottom: 3em;
+}
+
+.about p {
+    /* display: inline-block; */
+}
+
+.social {
+    text-align: center;
+    margin-top: 5em;
+    padding-bottom: 1em;
+}
+
+i {
+    font-size: 2em;
+    color: white;
+    margin: 0 .1em;
+}
 
 
 
