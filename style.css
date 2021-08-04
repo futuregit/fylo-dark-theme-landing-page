@@ -60,18 +60,20 @@ h1, h2, h3, li {
 
 /* Colors */
 
-.hero {
-    /* background: lightblue; */
-    height: auto;
-    background-image: url('img/bg-curvy-mobile.svg');
-    background-position: bottom 100px left 250px; /* Center the image */
-    /* background-repeat: no-repeat; Do not repeat the image */
-    background-size: cover;
-}
+
 
 .hero,
 .email-sign-up {
     background: var(--primary-darkblue-intro);
+}
+
+.hero {
+    /* background: lightblue; */
+    height: auto;
+    background-image: url('./img/bg-curvy-mobile.svg');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
 }
 
 .testimonials__card {
@@ -105,7 +107,6 @@ h1, h2, h3, li {
 }
 
 header {
-    position: relative;
     display: flex;
     padding: 0;
     margin: 0;
@@ -145,6 +146,7 @@ header {
 }
 
 .hero__call-to-action {
+    display: inline-block;
     text-decoration: none;
     background: var(--accent-blue);
     padding: .9em 5em;
@@ -346,6 +348,7 @@ i {
         padding-top: 4em;
         padding-bottom: 2em;
         justify-content: space-between;
+        align-items: flex-end;
         background: var(--primary-darkblue-intro);
     }
 
@@ -356,5 +359,20 @@ i {
     .navbar__links {
         padding-right: 5em;
     }
+
+    .hero {
+        background-image: url('./img/bg-curvy-desktop.svg');
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+    }
+
+    .hero__illustration {
+        height: auto; 
+        width: auto; 
+        max-width: 35em; 
+        max-height: 35em;
+    }
+    
 
 }
