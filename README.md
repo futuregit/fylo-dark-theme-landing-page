@@ -88,7 +88,7 @@ Still need to focus on different elements such as input and grid layouts.
 
 ## Author
 
-- Frontend Mentor - [@yfuturegit](https://www.frontendmentor.io/profile/futuregit)
+- Frontend Mentor - [@futuregit](https://www.frontendmentor.io/profile/futuregit)
 
 
 ## Acknowledgments
