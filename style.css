@@ -361,10 +361,11 @@ i {
     }
 
     .hero {
+        padding: 0 13em;
         background-image: url('./img/bg-curvy-desktop.svg');
         background-position: 100% 100%;
         background-repeat: no-repeat;
-        background-size: 100% 40%;
+        background-size: 100% 30%;
     }
 
     .hero__illustration {
@@ -373,6 +374,28 @@ i {
         max-width: 35em; 
         max-height: 35em;
     }
+
+    .hero__text {
+       padding-right: 7em;
+       padding-left: 7em;
+    }
     
+    .hero__heading h1 {
+        font-size: 2rem;
+    }
+
+    .features__group {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3em;
+    }
+
+    .features__square {
+        width: 50%;
+        padding: 0 4em;
+        margin-bottom: 5em;
+    }
 
 }
