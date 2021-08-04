@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/futuregit)
-- Live Site URL: [Add live site URL here](https://tommyfylo.netlify.app/)
+- Solution URL: [https://github.com/futuregit/fylo-dark-theme-landing-pag](https://github.com/futuregit/fylo-dark-theme-landing-page)
+- Live Site URL: [https://tommyfylo.netlify.app/](https://tommyfylo.netlify.app/)
 
 ## My process
 
@@ -84,11 +84,11 @@ Still need to focus on different elements such as input and grid layouts.
 
 ### Useful resources
 
-- [Example resource 1](https://courses.kevinpowell.co/courses/conquering-responsive-layouts) - This helped me to really hit the ground running creating layouts. I really like this because everything else fall in place.
+- [Kevin Powell Conquering Responsive Layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts) - This helped me to really hit the ground running creating layouts. I really like this because everything else fall in place.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/futuregit)
+- Frontend Mentor - [@yfuturegit](https://www.frontendmentor.io/profile/futuregit)
 
 
 ## Acknowledgments
