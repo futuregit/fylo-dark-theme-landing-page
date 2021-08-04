@@ -198,7 +198,6 @@ header {
 .testimonials__card {
     padding: 3em 2em 0 2em;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
 }
 
 .testimonials__author {
@@ -239,7 +238,6 @@ header {
     margin: 0 auto 0 auto;
     padding: 3em 2em;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
 }
 
 .email-sign-up input {
