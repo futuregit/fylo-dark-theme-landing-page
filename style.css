@@ -176,7 +176,7 @@ header {
 }
 
 .testimonials__card {
-    margin: 0 2em 2em 2em;
+    margin: 0 2em 0 2em;
 }
 
 .testimonials__img {
@@ -214,13 +214,38 @@ header {
     background-repeat: no-repeat;
 }
 
-.email-sign-up {
-    text-align: center;
-    width: 88%;
-    margin: 12em auto 0 auto;
+.move--email-card-down {
+    position: relative;
 }
 
+.email-sign-up {
+    position: relative;
+    top: 9em;
+    text-align: center;
+    width: 88%;
+    margin: 0 auto 0 auto;
+    padding: 3em 2em;
+}
 
+.email-sign-up input {
+    display: inline-block;
+    padding: 1em 1.4em;
+    border-radius: 100px;
+    width:100%;
+    outline: none;
+}
+
+.email-sign-up__btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1em;
+    width:100%;
+    background: var(--accent-blue);
+    padding: 1em 1.4em;
+    border-radius: 100px;
+    color: var(--neutral-white);
+    font-weight: 700;
+}
 
 
 
