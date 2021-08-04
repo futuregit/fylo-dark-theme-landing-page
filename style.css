@@ -452,4 +452,66 @@ i {
     .testimonials__title {
         font-size: .5rem;
     }
+
+    /* .move--email-card-down {
+        width: 80%;
+    } */
+
+    .email-sign-up {
+        text-align: center;
+        top: 8em;
+        width: 58%;
+        margin: 3.5em auto 0 auto;
+        padding-bottom: 1.97em;
+    }
+
+    .email-sign-up h3 {
+        font-size: 1.4rem;
+        margin-top: 0;
+    }
+
+    .email-sign-up p {
+        font-size: .75rem;
+        font-weight: lighter;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .email-sign-up input {
+        width: 60%;
+        padding: 1.2em 0;
+        font-size: .6rem;
+        margin-right: 1em;
+        text-align: left;
+    }
+
+    .email-sign-up__btn {
+        width: auto;
+        padding: 1.2em inherit;
+        font-size: .6rem;
+    }
+
+
+    /*
+
+        .email-sign-up input {
+    display: inline-block;
+    padding: 1em 1.4em;
+    border-radius: 100px;
+    width:100%;
+    outline: none;
+}
+
+.email-sign-up__btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1em;
+    width:100%;
+    background: var(--accent-blue);
+    padding: 1em 1.4em;
+    border-radius: 100px;
+    color: var(--neutral-white);
+    font-weight: 700;
+}
+    } */
 }
