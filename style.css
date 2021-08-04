@@ -141,6 +141,11 @@ header {
     text-decoration: none;
 }
 
+.navbar__links li a:hover,
+.navbar__links li a:active {
+    opacity: .75;
+}
+
 .hero__text {
     padding-bottom: 3em;
 }
@@ -179,10 +184,6 @@ header {
 
 .fyi__info-right a {
     color:var(--accent-cyan);
-}
-
-.testimonials {
-    /* text-align: center; */
 }
 
 .testimonials__card {
@@ -317,10 +318,6 @@ input {
     padding-bottom: 3em;
 }
 
-.about p {
-    /* display: inline-block; */
-}
-
 .social {
     text-align: center;
     margin-top: 5em;
@@ -332,8 +329,6 @@ i {
     color: white;
     margin: 0 .1em;
 }
-
-
 
 
 /* Start @media min-width: 1000px */
@@ -398,4 +393,63 @@ i {
         margin-bottom: 5em;
     }
 
+    .fyi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .fyi__info-right {
+        padding-left: 2.5em;
+        width: 55%;
+    }
+
+    .fyi__img-left {
+        width: 45%;        
+    }
+
+    .row {
+        width: 92%;      
+    }
+
+    .fyi__info-right h2 {
+        font-size: 1.7rem;
+        padding-right: 7em;
+    }
+    
+
+    .testimonials {
+        margin: 0 auto;
+        background-position: top left 3%;
+
+    }
+
+    .testimonials__container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .testimonials__card {
+        width: 400px;
+        padding: 1em 1.1em 0 1.1em;
+        margin: 0 .9em;
+    }
+
+    .testimonials__author {
+        padding-bottom: 1.4em;
+        margin: 0;
+    }
+
+    .testimonials__text {
+        font-size: .75rem;
+    }
+
+    .testimonials__name {
+        font-size: .6rem;
+    }
+
+    .testimonials__title {
+        font-size: .5rem;
+    }
 }
