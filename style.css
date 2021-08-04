@@ -453,10 +453,6 @@ i {
         font-size: .5rem;
     }
 
-    /* .move--email-card-down {
-        width: 80%;
-    } */
-
     .email-sign-up {
         text-align: center;
         top: 8em;
@@ -491,27 +487,43 @@ i {
         font-size: .6rem;
     }
 
+    .logo {
+        display: block;
+    }
+    .about {
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 3.5em;
+        padding-top: 13em;
+    }
 
-    /*
+    .about__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
-        .email-sign-up input {
-    display: inline-block;
-    padding: 1em 1.4em;
-    border-radius: 100px;
-    width:100%;
-    outline: none;
-}
+    .about-left {
+        width: 32%;
+    }
 
-.email-sign-up__btn {
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 1em;
-    width:100%;
-    background: var(--accent-blue);
-    padding: 1em 1.4em;
-    border-radius: 100px;
-    color: var(--neutral-white);
-    font-weight: 700;
-}
-    } */
+    .pad-top,
+    .pad-bottom {
+        padding: 0;
+    }
+   
+    .col {
+    margin-left: 0;    
+    }
+
+    .col li,
+    .fab {
+        font-weight: normal;
+    }
+
+    .social {
+        padding-top: 1em;
+        margin: 0;
+    }
+
 }
