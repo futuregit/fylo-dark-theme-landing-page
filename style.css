@@ -323,7 +323,6 @@ input {
 
 .col li a {
     text-decoration: none;
-    color: var(--neutral-white);
 }
 
 .col li a:hover,
@@ -351,7 +350,6 @@ input {
 
 i {
     font-size: 2em;
-    color: white;
     margin: 0 .1em;
 }
 
