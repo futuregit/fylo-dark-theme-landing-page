@@ -9,7 +9,7 @@
     --accent-red: hsl(0, 100%, 63%);
 
     --neutral-white: hsl(0, 0%, 100%);
-
+    --neutral-old-wood: #F0eee4;
     --clr-egg: rgb(236, 226, 226);
 }
 
@@ -41,7 +41,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
-    color: var(--neutral-white);
+    color: #D3D3D3;
     background: var(--primary-darkblue-main)
 }
 
@@ -59,6 +59,15 @@ h1, h2, h3, li {
 }
 
 /* Colors */
+
+h1,
+h2,
+h3,
+.col li a,
+.social a i{
+    color:var(--neutral-old-wood);
+    
+}
 
 
 
@@ -274,7 +283,8 @@ header {
 }
 
 input {
-    text-align: center;
+    text-align: left;
+    padding-left: 2em;
 }
 
 .about {
@@ -282,10 +292,25 @@ input {
 }
 
 .logo {
-    margin-left: 1.5em;
+    margin-left: 2.5em;
+    margin-bottom: 2.5em;
 }
 
-.about-left,
+.about__left .logo {
+    padding-bottom: 1em;
+}
+
+.about__left p {
+    padding-bottom: .5em;
+}
+
+.about span {
+    padding-left: .5em;
+    padding-right: 1.5em;
+
+}
+
+.about__left, 
 .col {
     margin-left: 1.5em;
 }
@@ -308,16 +333,6 @@ input {
 
 .col li {
     padding-bottom: 2em;
-}
-
-.about-left .logo {
-    padding-bottom: 1em;
-}
-
-.about span {
-    padding-left: .5em;
-    padding-right: 1.5em;
-
 }
 
 .pad-top {
@@ -514,7 +529,7 @@ i {
         align-items: flex-start;
     }
 
-    .about-left {
+    .about__left {
         width: 32%;
     }
 
