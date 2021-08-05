@@ -3,6 +3,7 @@
     --primary-darkblue-main: hsl(218, 28%, 13%);
     --primary-darkblue-footer: hsl(216, 53%, 9%);
     --primary-darkblue-testimonials: hsl(219, 30%, 18%);
+    --primary-lightgray-body: #D3D3D3;
 
     --accent-cyan: hsl(176, 68%, 64%);
     --accent-blue: hsl(198, 60%, 50%);
@@ -41,7 +42,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
-    color: #D3D3D3;
+    color: var(--primary-lightgray-body);
     background: var(--primary-darkblue-main)
 }
 
