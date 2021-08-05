@@ -215,7 +215,7 @@ header {
 
 .testimonials__card {
     padding: 1.5em 2em 0 2em;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px hsl(219, 30%, 18%) ;
 }
 
 .testimonials__author {
@@ -403,8 +403,8 @@ i {
     }
 
     .hero__text {
-       padding-right: 7em;
-       padding-left: 7em;
+        width: 70%;
+        margin: 0 auto;
     }
     
     .hero__heading h1 {
@@ -434,6 +434,7 @@ i {
 
     .fyi__info-right {
         padding-left: 2.5em;
+        padding-right: 1.5em;
         width: 55%;
     }
 
