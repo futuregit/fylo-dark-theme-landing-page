@@ -112,7 +112,7 @@ h1, h2, h3, li {
 
 header {
     display: flex;
-    padding: 0;
+    padding: 2em 1em 0 2em;
     margin: 0;
     justify-content: space-between;
 }
@@ -125,14 +125,17 @@ header {
 }
 
 .logo-header {
-     padding: 0;
-    margin: 0;
-    transform: scale(0.4); /* For scalling svg logo */
+    width: 6.25em;
+    height: 2.25em;
+}
 
+.logo-header img {
+    width: 100%;
+    height: 100%;
 }
 
 .navbar__links li {
-    padding-left: 1em;
+    padding-left: 2.5em;
    
 }
 
