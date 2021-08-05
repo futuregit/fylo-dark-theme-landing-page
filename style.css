@@ -360,7 +360,14 @@ i {
 @media (min-width: 1000px) {
     .logo-header {
         transform: revert;
+        width: revert;
+        height: revert;
         padding-left: 3em;
+    }
+
+    .logo-header img {
+        height: revert;
+        width: revert;
     }
 
     header {
