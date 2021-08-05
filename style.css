@@ -73,10 +73,11 @@ h1, h2, h3, li {
     background-image: url('./img/bg-curvy-mobile.svg');
     background-position: 100% 100%;
     background-repeat: no-repeat;
-    background-size: 100% 65%;
+   
     -webkit-background-size: 100% 65%;
     -moz-background-size: 100% 65%;
     -o-background-size: 100% 65%;
+    background-size: 100% 65%;
 }
 
 .testimonials__card {
