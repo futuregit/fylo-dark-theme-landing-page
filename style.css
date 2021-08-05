@@ -1,3 +1,11 @@
+/* Things to do
+ - Come back and reorganize
+ - Add more documentation
+ - Find solution for iPhone's background-size issues
+ * /
+
+
+/* Setting global variable */
 :root {
     --primary-darkblue-intro: hsl(217, 28%, 15%);
     --primary-darkblue-main: hsl(218, 28%, 13%);
@@ -14,29 +22,11 @@
     --clr-egg: rgb(236, 226, 226);
 }
 
-
-/* ## Colors
-
-### Primary
-
-- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
-- Dark Blue (main background): hsl(218, 28%, 13%)
-- Dark Blue (footer background): hsl(216, 53%, 9%)
-- Dark Blue (testimonials background): hsl(219, 30%, 18%)
-
-### Accent
-
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
-- Light Red (error): hsl(0, 100%, 63%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%) */
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+/* Begin Body */
 
 body {
     margin: 0;
@@ -46,11 +36,14 @@ body {
     background: var(--primary-darkblue-main)
 }
 
+/* End Body */
 
+/* Begin Typography */
 
-/* Typography */
-
-h1, h2, h3, li {
+h1, 
+h2, 
+h3, 
+li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -59,19 +52,20 @@ h1, h2, h3, li {
     font-weight: 700;
 }
 
-/* Colors */
+/* End Typography */
 
+/* Being Colors */
+
+/* Set all the headings and titles color */
 h1,
 h2,
 h3,
 .col li a,
 .social a i,
-.testimonials__name{
-    color: var(--neutral-old-wood)
-    
+.testimonials__name,
+.navbar__links a {
+    color: var(--neutral-old-wood);    
 }
-
-
 
 .hero,
 .email-sign-up {
@@ -79,12 +73,11 @@ h3,
 }
 
 .hero {
-    /* background: lightblue; */
     height: auto;
     background-image: url('./img/bg-curvy-mobile.svg');
     background-position: 100% 100%;
     background-repeat: no-repeat;
-   
+   /* To-do fit the background-size for iphones */
     -webkit-background-size: 100% 65%;
     -moz-background-size: 100% 65%;
     -o-background-size: 100% 65%;
@@ -99,11 +92,9 @@ h3,
     background: var(--primary-darkblue-footer);
 }
 
-.navbar__links a {
-    color: var(--clr-egg);
-}
+/* End Colors */
 
-/* Structure */
+/* Being Structure */
 
 .container {
     max-width: 1920px;
@@ -309,7 +300,6 @@ input {
 .about span {
     padding-left: .5em;
     padding-right: 1.5em;
-
 }
 
 .about__left, 
@@ -354,6 +344,8 @@ i {
     font-size: 2em;
     margin: 0 .1em;
 }
+
+/* End Structure */
 
 
 /* Start @media min-width: 1000px */
@@ -561,3 +553,5 @@ i {
     }
 
 }
+
+/* End @media min-width: 1000px */
