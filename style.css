@@ -74,6 +74,9 @@ h1, h2, h3, li {
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: 100% 65%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .testimonials__card {
