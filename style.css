@@ -64,8 +64,9 @@ h1,
 h2,
 h3,
 .col li a,
-.social a i{
-    color:var(--neutral-old-wood);
+.social a i,
+.testimonials__name{
+    color: var(--neutral-old-wood)
     
 }
 
